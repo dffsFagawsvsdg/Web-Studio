@@ -437,3 +437,46 @@ ul {
   text-align: left;
   color: #fff;
 }
+html,
+body {
+  height: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main {
+  flex-grow: 1;
+}
+.header-page {
+  border-bottom: 1px solid #ececec;
+}
+.button-filter {
+  margin-top: 100px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+.main .btn {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+  width: auto;
+  border-radius: 4px;
+}
+.main .btn-gray {
+  background-color: #f5f4fa;
+  font-family: "Roboto", serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.main .btn:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+  transition: all 0.5s ease-in-out;
+}
