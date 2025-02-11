@@ -612,4 +612,10 @@ body {
     justify-content: center;
     text-align: center;
   }
+  .footer-link-tall {
+    margin-bottom: 10px;
+  }
+  .footer {
+    margin-top: 30px;
+  }
 }
